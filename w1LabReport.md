@@ -17,4 +17,5 @@ It then asks me for my accounts password. This is the same password that I reset
 An important thing to note here is that while I was typing my password, the actual characters don't show up. I just had to press the return key after typing in all characters of my password.
 
 Upon typing my password correctly, the system asked me to authorize the connection by typing in a "yes" and my password again. This completed the connection process and this is the resulting information that showed up: 
+<img width="459" alt="image" src="https://user-images.githubusercontent.com/70964947/211930153-9ff212a6-6ae4-4f6c-b411-819a4fbd5653.png">
 
