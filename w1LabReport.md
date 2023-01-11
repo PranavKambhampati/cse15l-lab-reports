@@ -40,3 +40,4 @@ Here are some terminal commands that can be run in order to understand the file 
 This is what the terminal looks like when some of these commands are being run:
 <img width="594" alt="image" src="https://user-images.githubusercontent.com/70964947/211932560-6b95c446-6604-4c6b-8374-c23484085836.png">
 
+Finally, to log out of the remote desktop, the ``` exit ``` command can be run. This will return you back to your own desktop.
