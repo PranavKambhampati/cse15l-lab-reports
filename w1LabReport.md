@@ -26,7 +26,5 @@ Upon typing my password correctly, the system asked me to authorize the connecti
 
 #### Terminal Commands
 Here are some terminal commands that can be run in order to understand the file structure of either the client computer or the server.
-```
-cd
-``` 
+> cd 
 will change the work directory to whatever is specified after the command.
