@@ -8,6 +8,7 @@ After installing the application, open up the terminal (located at the bottom of
 This is what the VSCode application looks like:
 
 <img width="672" alt="image" src="https://user-images.githubusercontent.com/70964947/211930459-d799d4e0-7532-4748-b687-9b753bcf81f8.png">
+
 The terminal section is located at the bottom of the applciation window.
 
 #### Remotely Connecting using SSH
