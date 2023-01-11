@@ -27,9 +27,13 @@ Upon typing my password correctly, the system asked me to authorize the connecti
 #### Terminal Commands
 Here are some terminal commands that can be run in order to understand the file structure of either the client computer or the server.
 ``` cd ``` will change the current working directory to whatever directory is mentioned after the cd. Note: ... will go back a directory.
+
 ``` ls ``` will list out all the files and folders in the current working directory. This is helpful if we don't know what our current directory contains.
+
 ``` pwd `` will print out what the current working directory is. This is helpful if we don't know what directory we're located in after cd'ing.
+
 ``` mkdir ``` will make a directory at the provided path location. This is helpful if a specific file doesn't exist.
+
 ``` cp ``` will copy one or multiple files that can be put elsewhere.
 
 This is what the terminal looks like when some of these commands are being run:
