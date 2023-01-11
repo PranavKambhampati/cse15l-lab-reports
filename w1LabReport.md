@@ -2,6 +2,19 @@
 
 #### Setting up VSCode
 To set up VSCode, first install the application from [VSCode's Website](https://code.visualstudio.com/).
+Because my computer already had VSCode on it from using it for CSE 11, I was able to skip the installation step.
 After installing the application, open up the terminal (located at the bottom of the window) in order to connect to a server in the CSE Basement.
 
 #### Remotely Connecting using SSH
+Before being able to remotely connect to a server in the CSE Basement, I had to reset my password on [this website](https://sdacs.ucsd.edu/~icc/index.php).
+After resetting my password, I was ready to remotely connect to a server using the terminal window on VSCode.
+
+First I ran the command to initialize the connection to a CSE Basement computer through SSH:
+```
+$ ssh cs15lwi23alz@ieng6.ucsd.edu
+```
+It then asks me for my accounts password. This is the same password that I reset it to through the UCSD Educational Technology Services website.
+An important thing to note here is that while I was typing my password, the actual characters don't show up. I just had to press the return key after typing in all characters of my password.
+
+Upon typing my password correctly, the system asked me to authorize the connection by typing in a "yes" and my password again. This completed the connection process and this is the resulting information that showed up: 
+
