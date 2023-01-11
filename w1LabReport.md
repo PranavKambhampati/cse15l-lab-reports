@@ -27,7 +27,7 @@ Upon typing my password correctly, the system asked me to authorize the connecti
 #### Terminal Commands
 Here are some terminal commands that can be run in order to understand the file structure of either the client computer or the server.
 
-``` cd ``` will change the current working directory to whatever directory is mentioned after the cd. Note: ... will go back a directory.
+``` cd ``` will change the current working directory to whatever directory is mentioned after the cd. Note: .. will go back a directory. Additiionally, the tilda symbol (~) represents the home directory, which is where all of the users files are stored.
 
 ``` ls ``` will list out all the files and folders in the current working directory. This is helpful if we don't know what our current directory contains.
 
