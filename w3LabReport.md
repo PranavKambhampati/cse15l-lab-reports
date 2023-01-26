@@ -71,6 +71,8 @@ static int[] reversed(int[] arr) {
 ```
 
 #### Part 3: Reflection
+In these last two labs, I've learned many new things, such as building my own web server that takes inputs through the URL as well as using JUnit to debug my code. While I've known that you could run a web server through Java, I never actually knew how to do it, so last week's lab was great in showing me how to do this. The next step to developing the webpage could be to add some HTML (if possible) so that there's more information and formatting on the webpage.
 
+Additionally, we have just started using JUnit in CSE 12 as well, so using it in today's lab was really good exposure to writing test cases for the Programming Assignments in that class. I never knew that Java had an entire library dedicated to helping users test their code - I always thought that we'd have to do it manually through print statements. I've learned how much more flexibility and ease JUnit can add to the debugging process, so I'll definitely continue using this tool in the future.
 
 
