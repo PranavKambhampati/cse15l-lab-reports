@@ -1,6 +1,6 @@
 # Week 3 Lab Report: Creating a Web Server and Testing Code
 
-#### Part 1: StringServer Web Server
+### Part 1: StringServer Web Server
 This web server is meant to take in a parameter and display it on the webpage. It does so one after another, with each input being displayed on a new line.
 
 ###### This is the code in StringServer.java:
@@ -21,7 +21,7 @@ In this example, the main method in the StringServer class and the handleRequest
 
 Like in the previous example, the main method in the StringServer class and the handleRequest method in the Handler class are called. The main method takes in an array of command line arguments, which in this case, is how the program knows what port to run the web server on. The handleRequest method takes in a URI, which is the link to the webpage that is displayed on the browser. Based on the query and path, the webpage is updated to reflect the newest entry while simultaneously displaying the old ones. Similar to the last example, the query was the parameter that changed, from "Hi, how are you doing" to "Testing,testing". The URL path stayed as "/add-message" since that was the operation we were performing.
 
-#### Part 2: Testing Bugs
+### Part 2: Testing Bugs
 The bug I chose to analyze is the bug in the Reversed method of ArrayExamples.java. This code is supposed to return an array in which the elements from the input array are reversed.
 
 An failure-inducing input was {0,1,2,3}.
@@ -72,7 +72,7 @@ static int[] reversed(int[] arr) {
 
 These fixes fix the bug because now, instead of setting the elements in the original array with empty elements from the newArray, we make sure to use the elements from the old array to reverse it through the new array. We also return the new array instead of the old array - this way we're reversing the reversed array instead of the original. Finally, the bound in the for loop is also adjusted to ensure we don't get IndexOutOfBounds errors.
 
-#### Part 3: Reflection
+### Part 3: Reflection
 In these last two labs, I've learned many new things, such as building my own web server that takes inputs through the URL as well as using JUnit to debug my code. While I've known that you could run a web server through Java, I never actually knew how to do it, so last week's lab was great in showing me how to do this. The next step to developing the webpage could be to add some HTML (if possible) so that there's more information and formatting on the webpage.
 
 Additionally, we have just started using JUnit in CSE 12 as well, so using it in today's lab was really good exposure to writing test cases for the Programming Assignments in that class. I never knew that Java had an entire library dedicated to helping users test their code - I always thought that we'd have to do it manually through print statements. I've learned how much more flexibility and ease JUnit can add to the debugging process, so I'll definitely continue using this tool in the future.
