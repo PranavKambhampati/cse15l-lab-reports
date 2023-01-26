@@ -70,7 +70,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-These fixes fix the bug because now, instead of setting the elements in the original array with empty elements from the newArray, we make sure to use the elements from the old array to reverse it through the new array. We also return the new array instead of the old array - this way we're reversing the reversed array instead of the original. Finally, the bound in the for loop is also adjusted to ensure we don't get IndexOutOfBounds errors.
+These fixes fix the bug because now, instead of setting the elements in the original array with empty elements from the newArray, we make sure to use the elements from the old array to reverse it through the new array. We also return the new array instead of the old array - this way we're reversing the reversed array instead of the original.
 
 ### Part 3: Reflection
 In these last two labs, I've learned many new things, such as building my own web server that takes inputs through the URL as well as using JUnit to debug my code. While I've known that you could run a web server through Java, I never actually knew how to do it, so last week's lab was great in showing me how to do this. The next step to developing the webpage could be to add some HTML (if possible) so that there's more information and formatting on the webpage.
