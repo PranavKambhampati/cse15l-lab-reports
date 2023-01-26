@@ -24,7 +24,7 @@ Like in the previous example, the main method in the StringServer class and the 
 #### Part 2: Testing Bugs
 The bug I chose to analyze is the bug in the Reversed method of ArrayExamples.java. This code is supposed to return an array in which the elements in the input array are reversed.
 
-This is what the original, buggy code looks like:
+This is what the original, buggy code looks like, **before** any changes have been made:
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -57,5 +57,17 @@ This is what the JUnit Test looked like:
 ```
 
 This was the symptom of running these tests:
+<img width="1098" alt="image" src="https://user-images.githubusercontent.com/70964947/214759954-ff7dbb8b-1fac-46cf-ac4c-c66a839d5c39.png">
+
+This is the code for the method **after** the bug has been fixed:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
 
 
