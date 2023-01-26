@@ -22,7 +22,7 @@ In this example, the main method in the StringServer class and the handleRequest
 Like in the previous example, the main method in the StringServer class and the handleRequest method in the Handler class are called. The main method takes in an array of command line arguments, which in this case, is how the program knows what port to run the web server on. The handleRequest method takes in a URI, which is the link to the webpage that is displayed on the browser. Based on the query and path, the webpage is updated to reflect the newest entry while simultaneously displaying the old ones. Similar to the last example, the query was the parameter that changed, from "Hi, how are you doing" to "Testing,testing". The URL path stayed as "/add-message" since that was the operation we were performing.
 
 #### Part 2: Testing Bugs
-The bug I chose to analyze is the bug in the Reversed method of ArrayExamples.java. This code is supposed to return an array in which the elements in the input array are reversed.
+The bug I chose to analyze is the bug in the Reversed method of ArrayExamples.java. This code is supposed to return an array in which the elements from the input array are reversed.
 
 An failure-inducing input was {0,1,2,3}.
 This is what the JUnit Test looked like:
