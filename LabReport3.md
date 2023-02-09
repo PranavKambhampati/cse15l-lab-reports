@@ -132,3 +132,79 @@ Pattern not found  (press RETURN)
 The command is also capable of telling us if the word we're looking for isn't found in the text file. When this happens, it displays an error message and then when the return key is hit, the text file is displayed as normal, without any of the words highlighted since there is no keyword.
 
 In both these examples, using the -p parameter allowed us to try to look for the first word matching a keyword we inputted in the text file we're opening with less. If the word isn't found, less notifies us. This command makes it easy for the user to spot if a file contains a specific keyword (and where it is) when going through a text file.
+
+
+### Option 3: Squeezing Blank Lines
+
+Reference Used: [How To Geek Reference](https://www.howtogeek.com/444233/how-to-use-the-less-command-on-linux/)
+
+When the file we're trying to open contains a lot of blank lines back to back, we can use the -s parameter to squeeze all the blank lines into one blank line.
+
+```
+//Input
+[cs15lwi23alz@ieng6-203]:Castro:259$ less -s chP.txt
+
+//Output
+ made several Mexican films portraying the Mexican American pocho who code-switches between English and Spanish, and speaks cal<C3><B3>.
+The pachuco was disdained in the U.S. by both the Mexican American and Anglo communities, and likewise in Mexico by the media and the intellectuals. Octavio Paz, much quoted, disparagingly discusses the phenomenon of the pachuco in his book The Labyrinth of Solitude, pu
+blished in English in 1961. Although almost any urban Chicano who was young in the 1940s was affected by the style and language of the pachuco, the stereotypic pachuco was often associated with violence and deviancy. The zoot-suit riots of 1943 are held up as the epitom
+e of the pachuco experience, totally disregarding previous and later experiences. According to Alfredo Mirand<C3><A9>, <E2><80><9C>The pachuco has been an especially visible symbol of cultural autonomy and resistance. His distinctive dress, demeanor, mannerism, and lang
+uage not only express his manhood but set him off culturally from the dominant society. To be a chuco is to be proud, dignified, and to uphold one<E2><80><99>s personal integrity as well as the honor and integrity of the group. It is at once an affirmation of one<E2>
+<80><99>s manhood and one<E2><80><99>s culture<E2><80><9D> (1985, 179<E2><80><93>180). The pachuco is the precursor to the bato loco, the cholo, and the low rider of more contemporary times.
+The pachuca was the counterpart of the pachuco of the 1940s but also the home-girl archetype that comes together in the young Chicana growing up in an urban ghettoized environment. During the 1940s, pachucas were the girlfriends of or those who hung around with pachucos
+. They developed their own style of dress, wearing very tight short skirts and sweaters and doing their hair in a pompadour style. Their behavior was loud and brash: they smoked cigarettes in public, wore lots of eye makeup, and supposedly were quick to fight. Pachucas 
+knew the vernacular of the times, speaking pachuco and scandalizing their families. They were not necessarily gang members, but they can be considered the precursors of present-day cholas.
+See also Cal<C3><B3>; Cholos; Low Rider; Pocho; Tin Tan; Zoot Suit
+References Barker 1974; Braddy 1960, 1971; Campa 1979; Cerda and Farias 1953; Coltharp 1965; Cosgrove 1989; Fregoso 1995; Griffith 1948; Hinojosa 1975; Katz 1974; Keller 1985; Luckenbill 1990; Madrid-Barela 1973; Mazon 1984; Mirand<C3><A9> 1985; Montoya 1977; Orona-Cord
+ova 1992; Paz 1961; Plascencia 1983; Valdez 1992
+
+Paintings (Religious) 
+See Retablos
+Palomilla (Group of Friends)
+A term used primarily in south Texas during the 1940s and 1950s to describe an informal group of guys that hung around together. Paloma means <E2><80><9C>dove,<E2><80><9D> so a palomilla is a flock of doves. One rarely hears the expression today, but it is occasionally 
+used in literature, such as the short stories of Mario Suarez. A palomilla would be one<E2><80><99>s peer group, or a very close group of friends, but not a gang. Consisting of a core of three or four males, with a few fringe members, a palomilla was an important social
+ization unit that provided a safe space for young men to joke and express themselves. Arthur Rubel writes about the supportive social environment provided by the palomilla of young coming-of-age Chicanos in the barrio of New Lots in south Texas. Joseph Spielberg describ
+es the quick wit and aggressive bilingual humor found among the members of his palomilla during the early 1960s, and how their jostling and jesting allowed for the full bloom of each person<E2><80><99>s personality.
+References Cerda and Farias 1953; Lim<C3><B3>n 1994; Rubel 1965; Spielberg 1974
+Papel Picado (Cut Tissue Paper)
+The craft and final product of cutting out intricate designs and patterns on sheets of tissue paper. In Mexico the artists who do this work have been doing it for several generations and can cut through fifty or more sheets at a time. A pattern is made and used as the t
+op sheet while the outline design is cut out with different-sized chisels. Most often the small banner-sized sheets are made to decorate altars and nacimientos (nativity scenes), or for such celebrations as Cinco de Mayo (the Fifth of May) and El Diez y Seis de Septiemb
+re (the Sixteenth of September). Mexican restaurants are often decorated with streams of colorful papel picado. Some of the cutout designs are scenes related to specific holidays, such as skeletons for D<C3><AD>a de los Muertos (the Day of the Dead), dancers, floral pat
+terns, the Mexican flag, and other patriotic scenes. In Mexico, experienced paper cutters can make large wall hangings and tablecloths out of papel picado. Papel picado is often taught in public schools, although on the small eight-by-eleven-inch paper.
+See also Cinco de Mayo; D<C3><AD>a de los Muertos; El Diez y Seis de Septiembre
+References Carmichael and Sayer 1991; Lomas Garza 1999; Trenchard 1998; Vigil 1998
+Paredes, Am<C3><A9>rico (1915<E2><80><93>1999)
+Considered the foremost scholar of Chicano folklore, Am<C3><A9>rico Paredes was a professor emeritus of English and anthropology at the University of Texas, Austin. His classic work, With His Pistol in His Hand: A Border Ballad and Its Hero, first published in 1958, has become a standard work in Chicano studies and American folklore. A whole generation of Chicano scholars regard Paredes as their intellectual role model and mentor, and his original research on Chicano folklore engendered a new wave of scholarship and academic achievements.
+```
+```
+//Input
+[cs15lwi23alz@ieng6-203]:Castro:260$ less -s chR.txt
+
+//Output
+It is accepted that the word ranchera refers to a type of Mexican song, although sometimes it is an adjective that describes a character or a type of person. Ranchera comes from the word rancho, meaning a <E2><80><9C>cattle ranch, farm, or rural settlement.<E2><80><9D> 
+A poor unsophisticated person may be called a ranchero or ranchera, implying he or she is from the countryside, the sticks, and a hick. In the context of Mexican folk music la canci<C3><B3>n ranchera is a love song, sung by the common folk, the peasants of the rural cou
+ntryside. After the Mexican Revolution rancheras became more agreeable to the upper classes because of the movement toward a Mexican identity and nationalism and a rejection of European cultural values. The modern canci<C3><B3>n ranchera was made popular in Mexico City 
+in the early 1950s by the songwriter Jos<C3><A9> Alfredo Jimenez. The poetic structure of the ranchera is brief and simple, yet emotionally it is very intense. According to Rub<C3><A9>n Campos as quoted by Gradante, <E2><80><9C>it is a moan and a sigh<C2><A0>.<C2><A0>.
+<C2><A0>. , the briefest form of composition and, as such, requires a greater intensity of expression than any other compositional form. It must say precisely what it means<E2><80><9D> (1983, 105). The themes of rancheras are love and unrequited love, but from the point
+ of view of the ordinary common man. Rancheras express the poetry of the masses. The famous ranchera singer Amalia Mendoza states, <E2><80><9C>the canci<C3><B3>n ranchera expresses the sensibility of the masses and reaches them: thus, its popularity.<C2><A0>.<C2><A0>.
+<C2><A0>. One might say that the canci<C3><B3>n ranchera reflects the personality of the masses because it expresses something vital that we all have in common<E2><80><9D> (Gradante 1983, 105).
+The ranchera originated in Mexico but is very popular in the United States among Mexicans and Chicanos. Jos<C3><A9> Alfredo Jimenez wrote over 500 songs, many becoming classics that continue to be sung today by younger artists, that have a universal sentiment that speak
+s to the hearts of Chicanos. Because of the style of these romantic songs, sung to Mariachi music and sung in Spanish, untranslatable rancheras express the epitome of Mexicanness. The musical poetics arouse emotional sentiments about lost loves, nostalgia, and by extens
+ion about being Mexican. Songs such as <E2><80><9C>Ella<E2><80><9D> (Her), <E2><80><9C>Camino de Guanajuato<E2><80><9D> (Road to Guanajuato), <E2><80><9C>La Vida no Vale Nada<E2><80><9D> (Life Has No Value), and <E2><80><9C>Llego Borracho el Borracho<E2><80><9D> (The Dr
+unk Arrived Drunk) all elicit memories of fathers, grandfathers, and stories of Mexico. Many are drinking songs, frequently shown in movies being sung in cantinas (bars), but they are also dancing songs, so they are played at celebrations and family gatherings. Although
+ rancheras are intensely male centered, there are several female singers who became famous singing rancheras, such as Lola Beltran, Lucha Villa, and Amalia Mendoza. The performance of rancheras is always dramatic and emotional, whether performed by men or women, and the
+ audience can always empathize with the situations depicted in the verses. The life experiences portrayed in the songs of Jos<C3><A9> Alfredo Jimenez, who came from a poverty-stricken background himself, are about the struggles of Everyman, the need for social acceptanc
+e, personal happiness, and some type of financial security. These are concerns that the average Mexicano and Chicano can identify with. Although most rancheras speak of love, other life situations found in the songs deal with fortune, destiny, and life<E2><80><99>s choi
+ces. In <E2><80><9C>Camino de Guanajuato,<E2><80><9D> these existential words open the song:
+No vale nada la vida,
+La vida no vale nada,
+Comienza siempre llorando,
+Y as<C3><AD> llorando se acaba.
+(Of no value is life
+Life is worth nothing
+It always begins with weeping
+And with weeping it ends.)
+References Gradante 1983; Pe<C3><B1>a 1985a, 1985b
+Rascuache (Downtrodden Folk)
+```
+By using the -s parameter, we were able to condense multiple blank lines into just one. This improves the overall readablity of the file by making spacing more uniform between each paragraph.
