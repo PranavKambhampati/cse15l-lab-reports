@@ -208,3 +208,36 @@ References Gradante 1983; Pe<C3><B1>a 1985a, 1985b
 Rascuache (Downtrodden Folk)
 ```
 By using the -s parameter, we were able to condense multiple blank lines into just one. This improves the overall readablity of the file by making spacing more uniform between each paragraph.
+
+### Option 4: Leave less contents on the terminal even after exiting
+
+Reference Used: [Linuxize Reference](https://linuxize.com/post/less-command-in-linux/)
+
+Normally, when less is used, it clears the file contents from the terminal after we exit out of it. If you want the file content to continue to stay on the screen even after exiting, you can use the -X option when typing in the command. Using this will produce a new command line entry right below the contents of the text file.
+
+```
+//Input
+[cs15lwi23alz@ieng6-203]:Castro:262$ less -X chR.txt
+
+//Output
+social situations and entanglements he got into, were also subversively configured to emphasize the extreme illegitimacy of the social structure. His personality not only entertained but also fulfilled a seditious function, taunting the excesses of the wealthy and the absurdities of a structured social system.
+Relajo can also describe a joking relationship, a bantering back and forth, which through the laughter relieves tension and disintegrates the cause of the tension of the moment. But it is the breakdown of decorum, the rejection of a social value that everyone knows is necessary, yet proscribed, that the relajo subverts. The cultural consequence is that through this type of behavior one can become temporarily free from social constraints that in daily life cannot be rejected. If one could find a phrase in English that encompasses the relajo concept, it would be <E2><80><9C>to put one over on<E2><80><9D> a system or a situation. Relajando, or echando relajo (joking), can be lighthearted joking around or can be heavy in a serious way about a grave topic.
+Farr has studied the joking behavior of Mexican women in Chicago and found that through echando relajo, married and young single women find relief from their gender roles and the social propriety imposed by their husbands, parents, and the Mexican culture. Laughter created by farcical comportment, or by satire, creates an opposition to the prescribed value and to the seriousness of it. Portilla calls the shared laughing una burla colectiva (a collective joke), and states that collective laughter facilitates the collective <E2><80><9C>negaci<C3><B3>n a la conducta requerida<E2><80><9D> (negation of required conduct). Relajo can overturn values or what is assumed to be valued. El Teatro Campesino (the Farmworkers<E2><80><99> Theater) practiced the art of el relajo in the execution of its actos (dramas) and in the social protest messages propagated through satire and laughter.
+See also El Teatro Campesino
+[cs15lwi23alz@ieng6-203]:Castro:263$ 
+```
+```
+//Input
+[cs15lwi23alz@ieng6-203]:Castro:264$ less -X chN.txt
+
+//Output
+The Penitentes, the ancient religious brotherhood, have attracted much research and been scrutinized by many writers and journalists. De Cordova, Henderson, Sprott, and Weigle have conducted the most perceptive and sensitive writing on the Penitentes. The popular arts of colonial New Mexico, particularly the santos and santeros, have received a lot of attention by such researchers as E. Boyd, Marta Weigle, and William Wroth.
+In recent years Chicano writers from New Mexico have collected folklore from their ancestors and friends. Nasario Garcia has published several collections depicting the way of life of the elders of the Rio Puerco Valley, and Rudolfo Anaya has written several children
+<E2><80><99>s books that bring forth the folklore of the region. Because of its long history New Mexico will always be a bountiful reservoir for the serious folklorist.
+See also Adobe; Hispano Culture; Los Penitentes
+References De Cordova 1972; Espinosa, A.M. Jr., 1947; Henderson 1937; Rebolledo 1993, 1994; Sprott 1984; Stoller 1986; Weigle 1976; Weigle and White 1988
+Nichos (Niches)
+A nicho is a nook or niche built into a wall that is similar to a shelf inside of a home. It can be as small as six inches or as high as one foot or even three feet. Anything can be placed in a nicho, from books to knickknacks, but the usual purpose is to house a holy picture or statue of a saint. Consequently in some Chicano homes the word carries almost the same meaning as altar or shrine. A nicho decorated with votive candles and saints becomes the site for daily devotional prayers. Nichos are also constructed as part of yard shrines to house a favorite saint or La Virgen de Guadalupe or another Madonna. Yard shrines that incorporate a nicho are set up as a place of worship in the yard to commemorate a deceased relative or as a fulfillment of a vow. In some parts of the Southwest these outdoor shrines are also called grutas, <E2><80><9C>grottos,<E2><80><9D> and the two words are often used interchangeably. A cemetery shrine may also incorporate a nicho or a gruta. Since a gruta is primarily outdoors it can be constructed as a yard or cemetery shrine. Nichos tha
+[cs15lwi23alz@ieng6-203]:Castro:265$ 
+```
+As seen in these examples, by using the -X modifier in the command, a new terminal entry is produced right under the text file upon exiting less without the file contents getting cleared. This is useful if you want to access the contents of the file when typing in your next command (maybe a file with commands?). This is also useful if you want to come back to the file you were using at a later time without having to reopen it through less again - the user will just have to scroll up.
