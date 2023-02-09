@@ -45,6 +45,8 @@ In these examples, after cd'ing into the right directory, the less command is ab
 
 ### Option 1: Viewing Line Numbers with less
 
+Reference Used: [How To Geek Reference](https://www.howtogeek.com/444233/how-to-use-the-less-command-on-linux/)
+
 Even though less opens the text file in a really simple editor, with the default being no-line numbers for each line, we can actually pass in a parameter into the command that allows for line numbers.
 
 ```
@@ -71,6 +73,62 @@ Even though less opens the text file in a really simple editor, with the default
      17 See also Pachucos
      18 References Barker 1974; Braddy 1971
      19 California Folklore
-
+```
 
 ```
+//Input
+[cs15lwi23alz@ieng6-203]:Castro:254$ less -N chP.txt
+
+//Output
+1 
+      2 
+      3 
+      4 
+      5 Pachuco Cross
+      6 A design in the form of a small cross that is tattooed on the left hand, between the thumb and forefinger, with lines, or dashes, radiating out from it. George Carpenter Barker states that it must be seven rays, or lines, that radiate from the cross. It is a wel      6 l-known symbol among Chicanos and has been traced to the era of the pachucos (1940s urban youth), hence its name. It is also known as the cruz del barrio (cross from the neighborhood) and has been found throughout major cities of the Southwest. Tattoos of Christ      6 ian images have always been popular among Chicanos, and the custom of tattooing images of Jesus Christ, crucifixes, La Virgen de Guadalupe, and other Madonnas has a long history. In the Middle Ages the Crusaders cut a cross into Chris-tian converts on the hand a      6  little above the wrist. Some social scientists believe that the pachuco cross was meant to symbolize violence and membership in a gang. But it is known that it was used as an initiation ritual among friends and peers, to show solidarity and allegiance to a part      6 icular barrio. In describing the tattooed cross Haldeen Braddy is of the opinion that each ray jetting out from the cross represented a six-month stay in jail. In his view, pachucos liked to stay in the jaula (cage, jail) so that they could <E2><80><9C>accumulat      6 e these <E2><80><98>rays<E2><80><99> as souvenirs of their imprisonment<E2><80><9D> (1971, 142). There is no evidence to support this speculation.
+      7 References Barker 1974; Braddy 1960; Chicano Pinto Research Project 1975; Coltharp 1965; Demello 1993; Govenar 1988
+      8 Pachucos (-as) (1940s Urban Youth)
+      9 A name adopted by Mexican Americans and Mexican nationals to designate those who make up a fascinating urban subculture, detached from U.S. culture and from Mexican American urban life also. The first appearance of pachucos was in the El Paso<E2><80><93>Ju<C3>
+      9 <A1>rez area during the 1920s and early 1930s. It is thought the word pachuco was a colloquial way of referring to El Paso. A person from El Paso was referred to as del pachuco. Sometimes a person considered a pachuco was called a chuco. Haldeen Braddy discusses      9  the origin of the word pachuco, providing several theories. One is that the pachucos of the 1930s came from the city of Pachuca in the state of Hidalgo, Mexico. He also pre-sents the definition from the Diccionario General de Americanismos, stating that pachuca      9  is a five-card poker hand in which all the cards are of different suits, or in other words, a poker hand with no value, a losing hand. Braddy believes this well describes the pachucos of El Paso (1971). The other theory is that pachuco comes from the Nahuatl wo      9 rd pachtli, which refers to a grass like hay that grows parasitically on trees.
+     10 Pachucos were identifiable by their clothing, hairstyles, and a distinct language with its own vocabulary. The men wore <E2><80><9C>zoot suits,<E2><80><9D> that is, pegged pants, long coats with padded shoulders, and pancake hats. Their hair was worn long and sl     10 icked back with a ducktail effect. Some also wore a long chain hanging from their pants, well displayed and connected to a belt. Pachucas were the girlfriends of the pachucos, but they also had a dress style all their own. They wore short, very tight skirts, wit     10 h their hair high and long. Makeup was heavy, especially around the eyes. Supposedly they were very streetwise and liked to hang out with their pachuco boyfriends.
+     11 Large numbers of young men from El Paso, speaking the pachuco argot, settled in Los Angeles during the early 1940s, and it was there that they became recognized as an identifiable group, and considered to be gang members. Young men who relocated and settled in L     11 os Angeles, even for short periods of time, upon returning home to the small towns of the Southwest, would spread the pachuco beliefs and jargon to their communities. In this way pachuquesmo, a Mexican subculture, became known throughout the Southwest.
+     12 The pachuco speech, a combination of English and Spanish, also called cal<C3><B3>, was a fascinating fusion drawing from many linguistic sources. Cal<C3><B3> was originally the language of the Spanish gypsies, or a dialect of Spanish showing traces of many langu     12 ages acquired by the gypsies throughout their world wanderings. The pachuco argot utilized several linguistic sources in developing a vocabulary or jargon. These sources were southwestern Spanish, the older archaic Spanish from New Mexico, Mexican slang, standar     12 d Spanish from Mexico City, and also words invented by the pachucos themselves. The pachuco dialect was the product of an urban environment, and it is believed the language may have originated in the underworld and drug scene of El Paso. George Carpenter Barker      12 pinpoints almost exactly where the pachuco jargon originated, from the 7-X gang who first met in the neighborhood of Florence and Eighth Streets in El Paso. Arthur Campa believes that pachucos originated as a linguistic group first and had no distinctive dress s     12 tyle. That came later as they moved into a more stable economic environment and had some financial resources.
+     13 Expressions and vocabulary used by Chicanos today come from the pachuco argot of the 1940s. For example, such words as <C3><B3>rale (what<E2><80><99>s happening, or O.K.), bato (guy, as in bato loco), califas (California), hay te wuacho (I<E2><80><99>ll be seein     13 g you), and la pinta (jail/prison) have been used for generations. The film Zoot Suit, written and directed by Luis Valdez in 1981, depicts the dress, language, and problems of Mexican American youth and especially pachucos in Los Angeles in the 1940s.
+     14 During the 1940s a caricature of the pachuco was created for the Mexican media in the person of Tin Tan, whose real name was Germ<C3><A1>n Vald<C3><A9>z (1919<E2><80><93>1973). He was an actor and performer who dressed as a stereotypical pachuco and zoot-suiter.     14  Tin Tan made several Mexican films portraying the Mexican American pocho who code-switches between English and Spanish, and speaks cal<C3><B3>.
+     15 The pachuco was disdained in the U.S. by both the Mexican American and Anglo communities, and likewise in Mexico by the media and the intellectuals. Octavio Paz, much quoted, disparagingly discusses the phenomenon of the pachuco in his book The Labyrinth of Soli     15 tude, published in English in 1961. Although almost any urban Chicano who was young in the 1940s was affected by the style and language of the pachuco, the stereotypic pachuco was often associated with violence and deviancy. The zoot-suit riots of 1943 are held      15 up as the epitome of the pachuco experience, totally disregarding previous and later experiences. According to Alfredo Mirand<C3><A9>, <E2><80><9C>The pachuco has been an especially visible symbol of cultural autonomy and resistance. His distinctive dress, demea     15 nor, mannerism, and language not only express his manhood but set him off culturally from the dominant society. To be a chuco is to be proud, dignified, and to uphold one<E2><80><99>s personal integrity as well as the honor and integrity of the group. It is at o     15 nce an affirmation of one<E2><80><99>s manhood and one<E2><80><99>s culture<E2><80><9D> (1985, 179<E2><80><93>180). The pachuco is the precursor to the bato loco, the cholo, and the low rider of more contemporary times.
+     16 The pachuca was the counterpart of the pachuco of the 1940s but also the home-girl archetype that comes together in the young Chicana growing up in an urban ghettoized environment. During the 1940s, pachucas were the girlfriends of or those who hung around with      16 pachucos. They developed their own style of dress, wearing very tight short skirts and sweaters and doing their hair in a pompadour style. Their behavior was loud and brash: they smoked cigarettes in public, wore lots of eye makeup, and supposedly were quick to      16 fight. Pachucas knew the vernacular of the times, speaking pachuco and scandalizing their families. They were not necessarily gang members, but they can be considered the precursors of present-day cholas.
+     17 See also Cal<C3><B3>; Cholos; Low Rider; Pocho; Tin Tan; Zoot Suit
+     18 References Barker 1974; Braddy 1960, 1971; Campa 1979; Cerda and Farias 1953; Coltharp 1965; Cosgrove 1989; Fregoso 1995; Griffith 1948; Hinojosa 1975; Katz 1974; Keller 1985; Luckenbill 1990; Madrid-Barela 1973; Mazon 1984; Mirand<C3><A9> 1985; Montoya 1977; Or     18 ona-Cordova 1992; Paz 1961; Plascencia 1983; Valdez 1992
+     19 
+```
+In these two examples, the -N parameter simply added line numbers along the left edge of the terminal. This allows for easier navigation of the text because we can follow things based on the line number. This also makes the text more readable since there is some sort of organization to it rather than it just being a huge block of text.
+
+### Option 2: Opening a file with less using a search term
+
+Reference Used: [How To Geek Reference](https://www.howtogeek.com/444233/how-to-use-the-less-command-on-linux/)
+
+If the file that we're dealing with is really big and its hard to find where things are located, we can use a specific parameter to find a keyword in the text file. Less will automatically open the text to that region with the word highlighted so that it is easier to identify it.
+
+```
+//Input
+[cs15lwi23alz@ieng6-203]:Castro:255$ less -pdress chP.txt
+
+//Output
+Pachucos were identifiable by their clothing, hairstyles, and a distinct language with its own vocabulary. The men wore <E2><80><9C>zoot suits,<E2><80><9D> that is, pegged pants, long coats with padded shoulders, and pancake hats. Their hair was worn long and slicked back with a ducktail effect. Some also wore a long chain hanging from their pants, well displayed and connected to a belt. Pachucas were the girlfriends of the pachucos, but they also had a dress style all their own. They wore short, very tight skirts, with their hair high and long. Makeup was heavy, especially around the eyes. Supposedly they were very streetwise and liked to hang out with their pachuco boyfriends.
+Large numbers of young men from El Paso, speaking the pachuco argot, settled in Los Angeles during the early 1940s, and it was there that they became recognized as an identifiable group, and considered to be gang members. Young men who relocated and settled in Los Angeles, even for short periods of time, upon returning home to the small towns of the Southwest, would spread the pachuco beliefs and jargon to their communities. In this way pachuquesmo, a Mexican subculture, became known throughout the Southwest.
+The pachuco speech, a combination of English and Spanish, also called cal<C3><B3>, was a fascinating fusion drawing from many linguistic sources. Cal<C3><B3> was originally the language of the Spanish gypsies, or a dialect of Spanish showing traces of many languages acquired by the gypsies throughout their world wanderings. The pachuco argot utilized several linguistic sources in developing a vocabulary or jargon. These sources were southwestern Spanish, the older archaic Spanish from New Mexico, Mexican slang, standard Spanish from Mexico City, and also words invented by the pachucos themselves. The pachuco dialect was the product of an urban environment, and it is believed the language may have originated in the underworld and drug scene of El Paso. George Carpenter Barker pinpoints almost exactly where the pachuco jargon originated, from the 7-X gang who first met in the neighborhood of Florence and Eighth Streets in El Paso. Arthur Campa believes that pachucos originated as a linguistic group first and had no distinctive dress style. That came later as they moved into a more stable economic environment and had some financial resources.
+```
+Although not viewable in the copy-paste of the code output, the keyword I was looking for (dress) was actually highlighted for me when the file was opened:
+
+![image](https://user-images.githubusercontent.com/70964947/217717351-22bc610b-a1b7-4028-9d82-673436aa932a.png)
+
+```
+//Input
+[cs15lwi23alz@ieng6-203]:Castro:257$ less -pBrazil chA.txt
+
+//Output
+Pattern not found  (press RETURN)
+```
+The command is also capable of telling us if the word we're looking for isn't found in the text file. When this happens, it displays an error message and then when the return key is hit, the text file is displayed as normal, without any of the words highlighted since there is no keyword.
+
+In both these examples, using the -p parameter allowed us to try to look for the first word matching a keyword we inputted in the text file we're opening with less. If the word isn't found, less notifies us. This command makes it easy for the user to spot if a file contains a specific keyword (and where it is) when going through a text file.
