@@ -53,7 +53,7 @@ git clone git@github.com:PranavKambhampati/lab7.git
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
-However, I already had both these commands in my history, so I just had to use the <up arrow> a few times (6 times specifically) to actually run them.
+However, I already had both these commands in my history, so I just had to use the ```<up arrow>``` a few times (6 times specifically) to actually run them.
 
 ### Step 7: Edit code to fix failing test
 Code fix:
