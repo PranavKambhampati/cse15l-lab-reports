@@ -13,3 +13,35 @@ I also connected by IENG6 machine to my github account via SSH so that I don't h
 //Command Ran:
 rm -r lab7
 ```
+
+### Step 2: Fork the repository
+
+Forked the lab7 repository on my GitHub account through Microsoft Edge.
+Navigated to lab7 link on lab write up and hit "fork" on the top right corner.
+This created a copy of the repository for me to use, without any changes I make to my copy affecting the main lab7 repository.
+
+### Step 3: Start the timer
+
+N/A
+
+### Step 4: Log into ieng6
+
+![image](https://user-images.githubusercontent.com/70964947/220808583-d0737da4-d7c3-4278-aa95-b4805a5df0de.png)
+
+```
+//Command ran:
+ssh cs15lwi23alz@ieng6.ucsd.edu
+```
+The ssh key I saved beforehand allowed me to log in without me having to put in my password (also seen in the picture).
+
+### Step 5: Clone fork of the github repo
+
+![image](https://user-images.githubusercontent.com/70964947/220808853-7015e289-aa87-4e91-adbe-c867c9cbdd5a.png)
+
+I copied the ssh link of the lab7 repo that I forked and went back to the terminal and ran this command:
+```
+//Command ran
+git clone git@github.com:PranavKambhampati/lab7.git
+```
+
+### Step 6: Run Tests, demoing that they fail
