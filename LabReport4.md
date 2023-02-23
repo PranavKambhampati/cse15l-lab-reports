@@ -59,7 +59,7 @@ However, I already had both these commands in my history, so I just had to use t
 Code fix:
 ![image](https://user-images.githubusercontent.com/70964947/220812421-da2254cf-6d9c-4872-8fb3-b2810b22a970.png)
 
-To fix the code I had to change the index1 += 1 to index2 +=1
+To fix the code I had to change the index1 += 1 to index2 += 1
 ```
 //Commands ran:
 nano ListExamples.java
@@ -67,7 +67,7 @@ nano ListExamples.java
 ^O
 ^X
 ```
-To actually get to the right point in the file, I had to press the <down arrow key> about 42 times and the <right arrow key> about 10 times
+To actually get to the right point in the file, I had to press the ```<down arrow key>``` about 42 times and the ```<right arrow key>``` about 10 times
 
 ### Step 8: Run tests, demoing that they succeed
 
@@ -78,7 +78,7 @@ To actually get to the right point in the file, I had to press the <down arrow k
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
-I already had the commands in my history (from a previous step), so I just had to hit the <up arrow> 3 times for each command and I was then able to hit <enter> to run the commands.
+I already had the commands in my history (from a previous step), so I just had to hit the ```<up arrow>``` 3 times for each command and I was then able to hit ```<enter>``` to run the commands.
 
 ### Step 9: Commit and Push
 
