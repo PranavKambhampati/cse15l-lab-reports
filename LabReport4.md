@@ -45,3 +45,18 @@ git clone git@github.com:PranavKambhampati/lab7.git
 ```
 
 ### Step 6: Run Tests, demoing that they fail
+
+![image](https://user-images.githubusercontent.com/70964947/220811920-56b7b763-8421-4f03-8a57-7d3e9d3b83a0.png)
+
+```
+//Commands ran:
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
+However, I already had both these commands in my history, so I just had to use the up arrow a few times (6 times specifically) to actually run them.
+
+### Step 7: Edit code to fix failing test
+
+
+
+![image](https://user-images.githubusercontent.com/70964947/220807821-a4ff5c94-ba5f-487b-b4d3-70df8bd2b06c.png)
