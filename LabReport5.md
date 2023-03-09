@@ -40,3 +40,66 @@ OUTPUT:
 In this case, the sentence with the word "Sermon" was the output, the -i didn't really make a difference here because the word was written exactly the 
 same in the text file.
 
+The '-i' parameter is really helpful because it helps us search for words even when we don't know how they're written.
+
+
+### Recursive searches with grep
+
+Reference Used: [How To Geek Reference](https://www.howtogeek.com/496056/how-to-use-the-grep-command-on-linux/)
+
+The '-r' parameter can be used to recursively search for a keyword through a folders subdirectories, not just in the current file.
+The output would be a file path with the sentence containing the keyword.
+
+```
+//Input (after cd'ing to a parent folder about 3 levels up)
+grep -r -i Sermon .
+```
+
+OUTPUT:
+![image](https://user-images.githubusercontent.com/70964947/223902051-32bfa9d0-d268-4f36-beb8-bd63cbd4c350.png)
+
+Note: the . in the input command tells grep to look in the current directory
+
+```
+//Input (after cd'ing to a parent folder about 3 levels up)
+grep -r -i ATONEMENT .
+```
+
+OUTPUT:
+![image](https://user-images.githubusercontent.com/70964947/223902409-1ba55186-b896-40a1-aea1-85be765ee3db.png)
+
+In both cases, the 'grep -r -i' command was used to recursively look for a keyword in the current subdirectories. Because we used the '-i' option in
+conjunction to the '-r' option, the grep was case insensitive while looking for the keyword, as demonstrated in Example 2.
+
+The '-r' command is really helpful because if we don't know where the keyword is located (file-wise), we can simply navigate to a parent directory
+and look for the keyword recursively, making it a lot easier to find something.
+
+
+### Using grep with multiple search terms
+
+Reference Used: [How To Geek Reference](https://www.howtogeek.com/496056/how-to-use-the-grep-command-on-linux/)
+
+The grep parameter '-E' can also be used to search for multiple terms at once, as demonstrated below.
+
+```
+//Input
+grep -E -i "civilized|proceed" ch1.txt
+```
+
+OUTPUT:
+![image](https://user-images.githubusercontent.com/70964947/223903427-513c842e-bef3-4cba-99c3-44fb390cf817.png)
+
+The sentences containing each corresponding word are displayed (civilized and proceed).
+
+```
+//Input
+grep -E -i "ATONEMENT|blahblahblah" ch1.txt
+```
+
+OUTPUT:
+![image](https://user-images.githubusercontent.com/70964947/223903710-e6849806-ae10-4bc8-a38e-e4a23f51734c.png)
+
+In this case, only the sentence containing atonement was printed since the second keyword wasn't found in the file. Since we used the '-t' parameter,
+even though we typed the keyword into the command in all caps, grep was still able to find the right word since '-i' makes it case insensitive.
+
+
