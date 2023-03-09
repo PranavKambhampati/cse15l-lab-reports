@@ -102,4 +102,30 @@ OUTPUT:
 In this case, only the sentence containing atonement was printed since the second keyword wasn't found in the file. Since we used the '-t' parameter,
 even though we typed the keyword into the command in all caps, grep was still able to find the right word since '-i' makes it case insensitive.
 
+### Use grep to only display matching text
 
+Reference Used: [How To Geek Reference](https://www.howtogeek.com/496056/how-to-use-the-grep-command-on-linux/)
+
+The '-o' alternative can be used to simply display the matching word instead of printing out the entire sentence. Here are some examples:
+
+```
+//Input
+grep -o -i ATONEMENT ch1.txt
+```
+
+OUTPUT:
+![image](https://user-images.githubusercontent.com/70964947/223906502-fb8a4dd1-c6d4-4b60-85e6-7a313fb2d08d.png)
+
+```
+//Input
+grep -o The ch1.txt
+```
+
+OUTPUT:
+![image](https://user-images.githubusercontent.com/70964947/223906687-9b9d06aa-682f-4786-ac33-c8f0f8753aba.png)
+
+In both cases, by using the '-o' command, only the keyword was displayed rather than the entire sentence. When the '-i' parameter was used, the case was
+ignored.
+
+This command is really useful if we simply want to check if a word exists in a file without having to deal with a really long sentence being outputted.
+Since only the word is printed, the overall output is a lot cleaner.
